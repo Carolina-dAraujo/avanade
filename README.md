@@ -2,7 +2,8 @@
 API RESTful para gerenciamento de biblioteca.
 
 ## Diagrama de Classes:
-```classDiagram
+```
+classDiagram
     class Usuario {
         +int id
         +String nome
