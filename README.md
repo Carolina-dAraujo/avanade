@@ -2,7 +2,7 @@
 API RESTful para gerenciamento de biblioteca.
 
 ## Diagrama de Classes:
-```
+```mermaid
 classDiagram
     class Usuario {
         +int id
@@ -59,4 +59,3 @@ classDiagram
     Usuario "1" -- "*" Assinatura: possui
     Usuario "1" -- "*" Notificacao: recebe
     Livro "1" -- "*" Emprestimo: está_em
-´´´
